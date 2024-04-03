@@ -33,8 +33,6 @@ while running:
     
 
 
-
-
     elif 'cls' in enter:
         running = False
 

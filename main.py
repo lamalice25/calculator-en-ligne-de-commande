@@ -1,9 +1,10 @@
+# Importations de packets requis
 import time 
 
-
+# définir un variable qui est vrai 
 running = True
 
-enter  = input('Enter si vous voulais - , + , x : ')
+enter  = input('Enter si vous voulais - , + , * : ')
 
 while running:
     if '*' in enter:
@@ -12,7 +13,7 @@ while running:
 
         x_multiplier = y1_multiplier*y2_multiplier
 
-        print(x_multiplier)
+        print("le resultat est : ", x_multiplier)
 
     elif '+' in enter:
         y1_aditionner = int(input("Enter le premier chiffre a aditionner : "))
@@ -21,7 +22,7 @@ while running:
 
         x_aditionner = y1_aditionner+y2_aditionner
 
-        print(x_aditionner)
+        print("le resultat est : ", x_aditionner)
 
     elif '-' in enter:
         y1_soustraire = int(input("Entrer le premier chiffre a soustraire : "))
@@ -29,10 +30,10 @@ while running:
 
         x_soustraire = y1_soustraire-y2_soustraire
 
-        print(x_soustraire)
+        print("le resultat est : ", x_soustraire)
     
+ 
 
 
     elif 'cls' in enter:
         running = False
-

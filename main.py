@@ -7,6 +7,8 @@ running = True
 enter  = input('Enter si vous voulais - , + , * : ')
 
 while running:
+    
+    
     if '*' in enter:
         y1_multiplier = int(input('Entrer un chiffre le premier chiffre a multiplier : '))
         y2_multiplier = int(input('Enter le deuxième chiffre a multiplier : '))
@@ -15,6 +17,7 @@ while running:
 
         print("le resultat est : ", x_multiplier)
 
+    
     elif '+' in enter:
         y1_aditionner = int(input("Enter le premier chiffre a aditionner : "))
         y2_aditionner = int(input("Enter le deuxième chiffre a aditionner : "))
